@@ -8,7 +8,7 @@ sudo apt-get install git wget curl libssl-dev libncurses-dev flex bison gperf py
 sudo pip install --upgrade pip
 git clone https://github.com/Jason2866/esp32-arduino-lib-builder
 cd esp32-arduino-lib-builder
-./build.sh
+./build.sh -t esp32
 ```
 ### Development builds
 Look in release and download a version. The day of build is using the commits of this day of IDF / Arduino.
